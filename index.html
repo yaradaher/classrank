@@ -4,15 +4,139 @@
 	<title>ClassRank</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="styesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body id="classrank">
+	<div class="container-fluid">
+	<div class="container"> 
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">ClassRank</a>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Class Type <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			            <li><a href="#">Something else here</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">One more separated link</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			       <ul class="nav navbar-nav">
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Near <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			            <li><a href="#">Something else here</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">One more separated link</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			      <div class="navbarsearch">
+			      <form class="navbar-form navbar-left" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </form>
+			      <ul class="nav navbar-nav navbar-right">
+			      </ul>
+			    </div>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div> 
+	</div>
+	</div>
+	<!-- This is where map starts  -->
+	<div class="container-fluid"> 
+	<img src="http://www.gunshopfinder.com/maps/NY_map.gif">
+
+	</div>
+	<!-- This is where map ends  -->
+
+	<!-- This where date + sort pull down starts -->
+	<div class="container-fluid"> 
+		<div class="container"> 
+ 			<div class="results-bar"> 
+ 				<div class="results-bar__current-date">Todays Date</div>
+	 			<div class="sortpulldown">
+	 				<ul class="nav navbar-nav">
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Rank <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+	 			</div>
+ 			</div>
+		</div> 
+	</div>
+	<!-- This where date + sort pull down ends -->
+
+	<!-- This where results starts -->
+	<div class="container-fluid">
+		<div class="container"> 
+			<div class="results">
+				<div class="results__item clearfix">
+					<div class="results__item__image">
+						<img src="https://d342jfhztpgus0.cloudfront.net/images/328/328682/71m2_972-320x160.jpg">
+					</div>	
+					<div class="results__item__courseinfo">
+						<h2 class="results__item__courseinfo__title"> 
+							Class Title 
+						</h2>
+						<h3 class="results__item__courseinfo__time"> 
+							9:30 am 
+						</h3>
+						<h3 class="results__item__courseinfo__rating"> 
+							*****
+						</h3>
+					</div>
+					<div class="results__item__address">
+						hjklhknh
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+	<!-- This where results ends -->
+
+	<div class="container-fluid"> 
+		<div class="container"> </div> 
+	</div>
 
 
 
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+.container-fluid {
+	border: 1px solid black;
+	min-height: 20px;
+}
+
+.container {
+	border: 1px dotted blue;
+	min-height: 20px;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+.navbar {
+	background-color: #14192e;
+	min-height: 20px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+#classrank .navbar-brand {
+	color: white;
+}
+
+.navbarsearch {
+	float: right;
+}
+
+.results-bar {
+	position: relative;
+}
+
+.results-bar__current-date {
+	text-align: center;
+	padding: 15px;
+}
+
+.currentdate {
+    text-align: center;
+}
+
+.sortpulldown {
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+.results__item {
+	padding: 10px;
+}
+
+.results__item > * {
+	float: left;
+	width: 31.333333%;
+	margin: 1%;
+}
+
+.results__item img {
+	width: 100%;
+}
+
+.results__item__courseinfo > * {
+	margin: 0;
+}
